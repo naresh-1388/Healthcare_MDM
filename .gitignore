@@ -1,0 +1,15 @@
+# Virtual Env
+mdmenv/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
