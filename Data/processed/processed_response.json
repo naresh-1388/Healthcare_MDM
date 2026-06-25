@@ -1,0 +1,412 @@
+[
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "STEFFI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ".RESNICK"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-234-0007"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-940-1160"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-629-2526"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "PASADENA"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-766-1995"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-766-1995"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-435-9073"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "KENNETT SQUARE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "610-925-4436"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BROOKLYN"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "KENNETT SQUARE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "610-925-4436"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 80
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-435-0030"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    }
+]
