@@ -8,9 +8,25 @@
         "fields": [
             {
                 "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1073731121"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
                 "name": "FirstName",
                 "values": [
                     "STEFFI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "BETH"
                 ],
                 "fuzzyPrecision": 100
             },
@@ -24,11 +40,99 @@
             },
             {
                 "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "STEFFI BETH .RESNICK"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "Ph.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2007-04-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2025-09-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "103 E READ ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
                 "name": "City",
                 "values": [
                     "BALTIMORE"
                 ],
-                "fuzzyPrecision": 80
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212022403"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
@@ -37,373 +141,68 @@
                     "410-234-0007"
                 ],
                 "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
+            },
             {
                 "method": "EXACT",
-                "name": "FirstName",
+                "name": "FaxNumber",
                 "values": [
-                    ""
+                    "410-659-1943"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
-                "name": "LastName",
+                "name": "TaxonomyCode",
                 "values": [
-                    ""
+                    "231H00000X"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "FUZZY",
-                "name": "City",
+                "name": "TaxonomyDescription",
                 "values": [
-                    "BALTIMORE"
+                    "Audiologist"
                 ],
-                "fuzzyPrecision": 80
+                "fuzzyPrecision": 90
             },
             {
                 "method": "EXACT",
-                "name": "PhoneNumber",
+                "name": "LicenseNumber",
                 "values": [
-                    "410-940-1160"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
+                    "0176"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
-                "name": "LastName",
+                "name": "LicenseState",
                 "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "BALTIMORE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "443-629-2526"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
+                    "MD"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
-                "name": "LastName",
+                "name": "Identifier",
                 "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "PASADENA"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "410-766-1995"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
+                    "32448"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
-                "name": "LastName",
+                "name": "IdentifierIssuer",
                 "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "BALTIMORE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "410-766-1995"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
+                    "MAMSI"
                 ],
                 "fuzzyPrecision": 100
             },
             {
                 "method": "EXACT",
-                "name": "LastName",
+                "name": "IdentifierType",
                 "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "BALTIMORE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "410-435-9073"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "EXACT",
-                "name": "LastName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "KENNETT SQUARE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "610-925-4436"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "EXACT",
-                "name": "LastName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "BROOKLYN"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "EXACT",
-                "name": "LastName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "KENNETT SQUARE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "610-925-4436"
-                ],
-                "fuzzyPrecision": 100
-            }
-        ]
-    },
-    {
-        "resultSize": "20",
-        "entityType": "Activity",
-        "codBases": [
-            "US"
-        ],
-        "fields": [
-            {
-                "method": "EXACT",
-                "name": "FirstName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "EXACT",
-                "name": "LastName",
-                "values": [
-                    ""
-                ],
-                "fuzzyPrecision": 100
-            },
-            {
-                "method": "FUZZY",
-                "name": "City",
-                "values": [
-                    "BALTIMORE"
-                ],
-                "fuzzyPrecision": 80
-            },
-            {
-                "method": "EXACT",
-                "name": "PhoneNumber",
-                "values": [
-                    "443-435-0030"
+                    "Other (non-Medicare)"
                 ],
                 "fuzzyPrecision": 100
             }

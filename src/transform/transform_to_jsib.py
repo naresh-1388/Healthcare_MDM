@@ -1,59 +1,126 @@
 """
 Transform the standardized provider record into the JSIB payload format.
+
+Responsibilities
+
+1. Read standardized provider records.
+2. Build the enterprise JSIB payload.
+3. Apply field matching configuration.
+4. Return the payload for downstream processing.
+
+This module does NOT
+
+- Call JSIB APIs
+- Load Databricks
+- Load Snowflake
+- Perform Deduplication
 """
+
 
 # COUNTRY TO CODBASE MAPPING
 
 COUNTRY_TO_CODBASE = {
 
     "india": "IN",
+
     "united states": "US",
+
     "usa": "US",
+
     "canada": "CA",
+
     "uk": "GB"
+
 }
 
-# FIELD MAPPING
-# source_field, target_field, match_method, fuzzy_precision
+
+# JSIB FIELD MAPPING
+
+# Source Field
+# Target Field
+# Match Method
+# Fuzzy Precision
 
 JSIB_FIELD_MAPPING = [
 
+    ("Provider ID", "ProviderID", "EXACT", 100),
+
     ("First Name", "FirstName", "EXACT", 100),
+
+    ("Middle Name", "MiddleName", "EXACT", 100),
 
     ("Last Name", "LastName", "EXACT", 100),
 
-    ("City", "City", "FUZZY", 80),
+    ("Full Name", "FullName", "FUZZY", 95),
 
-    ("Phone", "PhoneNumber", "EXACT", 100)
+    ("Credential", "Credential", "EXACT", 100),
+
+    ("Gender", "Gender", "EXACT", 100),
+
+    ("Status", "Status", "EXACT", 100),
+
+    ("Enumeration Date", "EnumerationDate", "EXACT", 100),
+
+    ("Last Updated", "LastUpdated", "EXACT", 100),
+
+    ("Address Line 1", "AddressLine1", "FUZZY", 90),
+
+    ("City", "City", "FUZZY", 90),
+
+    ("State", "State", "EXACT", 100),
+
+    ("Postal Code", "PostalCode", "EXACT", 100),
+
+    ("Country Code", "CountryCode", "EXACT", 100),
+
+    ("Country Name", "CountryName", "EXACT", 100),
+
+    ("Phone Number", "PhoneNumber", "EXACT", 100),
+
+    ("Fax Number", "FaxNumber", "EXACT", 100),
+
+    ("Taxonomy Code", "TaxonomyCode", "EXACT", 100),
+
+    ("Taxonomy Description", "TaxonomyDescription", "FUZZY", 90),
+
+    ("License Number", "LicenseNumber", "EXACT", 100),
+
+    ("License State", "LicenseState", "EXACT", 100),
+
+    ("Identifier", "Identifier", "EXACT", 100),
+
+    ("Identifier Issuer", "IdentifierIssuer", "EXACT", 100),
+
+    ("Identifier Type", "IdentifierType", "EXACT", 100)
 
 ]
-
 def transform_to_jsib(provider: dict) -> dict:
     """
-    Convert a standardized provider record into the
-    JSIB request payload.
+    Transform a standardized provider record into the enterprise JSIB payload.
 
-    This function only creates the payload.
+    Responsibilities
 
-    It does not call any external API.
+    1. Read standardized provider fields.
+    2. Build JSIB field collection.
+    3. Apply configured matching rules.
+    4. Return the complete JSIB payload.
     """
 
-    provider = provider or {}                                            # Prevent None values
+    provider = provider or {}                                          # Prevent NoneType errors by using an empty dictionary
 
-    addresses = provider.get("HCP Address", [])                          # Read provider addresses
-
-    first_address = addresses[0] if addresses else {}                    # Read first available address
-
-    country = (
-        first_address
-        .get("Country", {})
-        .get("Name", "")
-    ).strip().lower()                                                    # Read country name
+    country_name = (
+        provider.get(
+            "Country Name",
+            ""
+        )
+        .strip()
+        .lower()
+    )                                                                  # Read provider country for CodBase mapping
 
     cod_base = COUNTRY_TO_CODBASE.get(
-        country,
+        country_name,
         "US"
-    )                                                                     # Default to US if country is missing
+    )                                                                  # Default to US if the country is not configured
 
     payload = {
 
@@ -64,28 +131,24 @@ def transform_to_jsib(provider: dict) -> dict:
         "codBases": [
 
             cod_base
+
         ],
+
         "fields": []
-    }
+
+    }                                                                  # Create the base JSIB payload structure
+
     for source_field, target_field, method, precision in JSIB_FIELD_MAPPING:
 
-        if source_field == "City":
+        value = provider.get(
+            source_field,
+            ""
+        )                                                              # Read the standardized provider value
 
-            value = first_address.get(
-                "City",
-                ""
-            )
-        elif source_field == "Phone":
+        if value is None:
 
-            value = first_address.get(
-                "Phone",
-                ""
-            )
-        else:
-            value = provider.get(
-                source_field,
-                ""
-            )
+            value = ""                                                 # Replace NULL values with an empty string
+
         payload["fields"].append(
 
             {
@@ -96,13 +159,14 @@ def transform_to_jsib(provider: dict) -> dict:
 
                 "values": [
 
-                    value
+                    str(value)
+
                 ],
 
                 "fuzzyPrecision": precision
 
             }
 
-        )
+        )                                                              # Append one JSIB field definition into the payload
 
-    return payload
+    return payload                                                     # Return the completed JSIB payload

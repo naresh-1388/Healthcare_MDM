@@ -1,214 +1,220 @@
-import logging                                                           # Import logging module for application logging
+import logging                                                      # Import logging module for recording application events
 
 
 logging.basicConfig(
-    level=logging.INFO,                                                  # Log INFO level and above messages
-    format="%(asctime)s - %(levelname)s - %(message)s"                   # Define standard log message format
+    level=logging.INFO,                                             # Configure INFO level logging
+    format="%(asctime)s - %(levelname)s - %(message)s"              # Configure standard log format
 )
 
-logger = logging.getLogger(__name__)                                     # Create logger object for this module
+logger = logging.getLogger(__name__)                                # Create logger instance for this module
 
 
 def process_jsib_response(response_json: dict) -> dict:
     """
-    Process the raw NPPES API response and convert it into
-    the standard JSIB provider structure.
+    Process the raw NPPES API response.
 
-    Responsibilities:
-        1. Read provider records from the API response.
-        2. Extract only required business fields.
-        3. Flatten nested JSON objects.
-        4. Create a standard provider object.
+    Responsibilities
 
-    This function DOES NOT:
+    1. Read provider records from the NPPES API.
+    2. Extract all required provider attributes.
+    3. Flatten nested JSON objects.
+    4. Build a standardized provider object.
+    5. Return standardized records for JSIB transformation.
 
-        - Perform deduplication.
-        - Apply business rules.
-        - Load data into Databricks.
-        - Save JSON files.
+    This module does NOT
+
+    - Call JSIB APIs
+    - Perform Deduplication
+    - Perform Matching
+    - Create Golden Records
+    - Load Databricks
+    - Load Snowflake
     """
 
     try:
 
-        results = response_json.get("results", []) or []                 # Read provider records returned by the API
+        provider_results = response_json.get(
+            "results",
+            []
+        )                                                            # Read provider collection returned by the API
 
-        transformed_records = []                                         # Store transformed provider records
+        transformed_records = []                                     # Store standardized provider records
 
-        for provider in results:                                         # Process every provider individually
+        for provider in provider_results:                            # Process every provider individually
 
-            basic = provider.get("basic", {}) or {}                      # Read basic provider information safely
+            basic = provider.get(
+                "basic",
+                {}
+            )                                                        # Read provider basic information
 
-            provider_id = provider.get("number", "")                     # Read National Provider Identifier (NPI)
+            addresses = provider.get(
+                "addresses",
+                []
+            )                                                        # Read provider address collection
 
-            first_name = basic.get("first_name", "")                     # Read provider first name
+            taxonomies = provider.get(
+                "taxonomies",
+                []
+            )                                                        # Read provider taxonomy collection
 
-            middle_name = basic.get("middle_name", "")                   # Read provider middle name
+            identifiers = provider.get(
+                "identifiers",
+                []
+            )                                                        # Read provider identifier collection
 
-            last_name = basic.get("last_name", "")                       # Read provider last name
+            first_address = addresses[0] if addresses else {}        # Read primary provider address
 
-            gender = basic.get("sex", "")                                # Read provider gender
+            first_taxonomy = taxonomies[0] if taxonomies else {}      # Read primary taxonomy
 
-            status = basic.get("status", "")                             # Read provider active status
-
-            full_name = " ".join(                                        # Build complete provider name
-                filter(
-                    None,
-                    [
-                        first_name,
-                        middle_name,
-                        last_name
-                    ]
-                )
-            )
-
-            hcp_addresses = []                                           # Store all provider addresses
-
-            addresses = provider.get("addresses", []) or []              # Read address collection
-
-            for address in addresses:                                    # Process every provider address
-
-                address_record = {
-
-                    "Address Line 1": address.get(
-                        "address_1", ""
-                    ),
-
-                    "City": address.get(
-                        "city", ""
-                    ),
-
-                    "State": address.get(
-                        "state", ""
-                    ),
-
-                    "Postal Code": address.get(
-                        "postal_code", ""
-                    ),
-
-                    "Country": {
-
-                        "Code": address.get(
-                            "country_code", ""
-                        ),
-
-                        "Name": address.get(
-                            "country_name", ""
-                        )
-
-                    },
-
-                    "Phone": address.get(
-                        "telephone_number", ""
-                    ),
-
-                    "Fax": address.get(
-                        "fax_number", ""
-                    ),
-
-                    "Address Purpose": address.get(
-                        "address_purpose", ""
-                    ),
-
-                    "Address Type": address.get(
-                        "address_type", ""
-                    )
-
-                }
-
-                hcp_addresses.append(address_record)                     # Add formatted address into provider address list
-                specialties = []                                             # Store provider specialties
-
-            taxonomies = provider.get("taxonomies", []) or []            # Read taxonomy collection
-
-            for taxonomy in taxonomies:                                  # Process every provider specialty
-
-                specialty = {
-
-                    "Code": taxonomy.get(
-                        "code", ""
-                    ),
-
-                    "Description": taxonomy.get(
-                        "desc", ""
-                    ),
-
-                    "License": taxonomy.get(
-                        "license", ""
-                    ),
-
-                    "State": taxonomy.get(
-                        "state", ""
-                    ),
-
-                    "Primary": taxonomy.get(
-                        "primary", False
-                    )
-
-                }
-
-                specialties.append(specialty)                            # Add specialty into specialty collection
-
-            alternate_identifiers = []                                   # Store alternate identifiers
-
-            identifiers = provider.get("identifiers", []) or []          # Read alternate identifiers
-
-            for identifier in identifiers:                               # Process every identifier
-
-                identifier_record = {
-
-                    "Identifier Type": identifier.get(
-                        "desc", ""
-                    ),
-
-                    "Identifier Value": identifier.get(
-                        "identifier", ""
-                    ),
-
-                    "Issuer": identifier.get(
-                        "issuer", ""
-                    ),
-
-                    "State": identifier.get(
-                        "state", ""
-                    )
-
-                }
-
-                alternate_identifiers.append(identifier_record)           # Add identifier into identifier collection
+            first_identifier = identifiers[0] if identifiers else {} # Read first alternate identifier
 
             provider_record = {
 
-                "Provider ID": provider_id,
+                "Provider ID": provider.get(
+                    "number",
+                    ""
+                ),                                                    # National Provider Identifier (NPI)
 
-                "First Name": first_name,
+                "First Name": basic.get(
+                    "first_name",
+                    ""
+                ),                                                    # Provider first name
 
-                "Middle Name": middle_name,
+                "Middle Name": basic.get(
+                    "middle_name",
+                    ""
+                ),                                                    # Provider middle name
 
-                "Full Name": full_name,
+                "Last Name": basic.get(
+                    "last_name",
+                    ""
+                ),                                                    # Provider last name
 
-                "Last Name": last_name,
+                "Full Name": " ".join(
+                    filter(
+                        None,
+                        [
+                            basic.get("first_name", ""),
+                            basic.get("middle_name", ""),
+                            basic.get("last_name", "")
+                        ]
+                    )
+                ),                                                    # Build complete provider name
 
-                "Gender": gender,
+                "Credential": basic.get(
+                    "credential",
+                    ""
+                ),                                                    # Professional credential
 
-                "Status": status,
+                "Gender": basic.get(
+                    "sex",
+                    ""
+                ),                                                    # Provider gender
 
-                "HCP Address": hcp_addresses,
+                "Status": basic.get(
+                    "status",
+                    ""
+                ),                                                    # Provider status
 
-                "Specialty": specialties,
+                "Enumeration Date": basic.get(
+                    "enumeration_date",
+                    ""
+                ),                                                    # Initial NPI registration date
 
-                "AlternateIdentifier": alternate_identifiers
+                "Last Updated": basic.get(
+                    "last_updated",
+                    ""
+                ),                                                    # Last profile update date
+
+                "Address Line 1": first_address.get(
+                    "address_1",
+                    ""
+                ),                                                    # Primary address line
+
+                "City": first_address.get(
+                    "city",
+                    ""
+                ),                                                    # Provider city
+
+                "State": first_address.get(
+                    "state",
+                    ""
+                ),                                                    # Provider state
+
+                "Postal Code": first_address.get(
+                    "postal_code",
+                    ""
+                ),                                                    # Postal code
+
+                "Country Code": first_address.get(
+                    "country_code",
+                    ""
+                ),                                                    # ISO country code
+
+                "Country Name": first_address.get(
+                    "country_name",
+                    ""
+                ),                                                    # Country name
+
+                "Phone Number": first_address.get(
+                    "telephone_number",
+                    ""
+                ),                                                    # Primary contact number
+
+                "Fax Number": first_address.get(
+                    "fax_number",
+                    ""
+                ),                                                    # Fax number
+
+                "Taxonomy Code": first_taxonomy.get(
+                    "code",
+                    ""
+                ),                                                    # Provider taxonomy code
+
+                "Taxonomy Description": first_taxonomy.get(
+                    "desc",
+                    ""
+                ),                                                    # Provider specialty
+
+                "License Number": first_taxonomy.get(
+                    "license",
+                    ""
+                ),                                                    # Professional license number
+
+                "License State": first_taxonomy.get(
+                    "state",
+                    ""
+                ),                                                    # License issuing state
+
+                "Identifier": first_identifier.get(
+                    "identifier",
+                    ""
+                ),                                                    # Alternate provider identifier
+
+                "Identifier Issuer": first_identifier.get(
+                    "issuer",
+                    ""
+                ),                                                    # Organization issuing identifier
+
+                "Identifier Type": first_identifier.get(
+                    "desc",
+                    ""
+                )                                                     # Identifier description
 
             }
 
-            transformed_records.append(provider_record)                  # Store transformed provider record
-
-        return {
+            transformed_records.append(
+                provider_record
+            )
+            return {
 
             "searchResult": {
 
-                "totalRecords": len(transformed_records),
+                "totalRecords": len(
+                    transformed_records
+                ),                                                    # Store total number of standardized provider records
 
-                "records": transformed_records
+                "records": transformed_records                         # Return the complete standardized provider collection
 
             }
 
@@ -216,9 +222,8 @@ def process_jsib_response(response_json: dict) -> dict:
 
     except Exception as exception:
 
-        logger.error(
-            f"Error while processing JSIB response : {str(exception)}",
-            exc_info=True
+        logger.exception(                                              # Log the complete exception with stack trace
+            "Failed while processing the NPPES provider response."
         )
 
-        raise
+        raise                                                         # Re-raise the exception to stop pipeline execution                                                         # Add standardized provider record into the output collection
