@@ -235,3 +235,7 @@ bronze_table_df.select(
     "FILE_NAME",
     "BATCH_ID"
 ).show(truncate=False)
+
+# COMMAND ----------
+
+bronze_df.count()

@@ -113,11 +113,9 @@ exploded_df = parsed_df.withColumn(
 
 # COMMAND ----------
 
-# Flatten the exploded provider fields.
-#
-# Purpose : Extract every business attribute together with the ingestion metadata received from Bronze.
-
 flatten_df = exploded_df.select(
+
+    col("PROVIDER_JSON"),
 
     col("field.name").alias("FIELD_NAME"),
 
@@ -149,7 +147,11 @@ flatten_df = exploded_df.select(
 
 # Purpose : Verify that every JSIB field has been converted into an individual business record.
 
-flatten_df.show(100,truncate=False)
+flatten_df.show(20,truncate=False)
+
+# COMMAND ----------
+
+flatten_df.select("FIELD_NAME", "FIELD_VALUE").show(50, False)
 
 # COMMAND ----------
 
@@ -171,6 +173,7 @@ from pyspark.sql.functions import first
 silver_df = (
     flatten_df
     .groupBy(
+        "PROVIDER_JSON",
         "SOURCE_SYSTEM",
         "PAYLOAD_FORMAT",
         "TARGET_SYSTEM",
@@ -180,9 +183,7 @@ silver_df = (
         "BATCH_ID"
     )
     .pivot("FIELD_NAME")
-    .agg(
-        first("FIELD_VALUE")
-    )
+    .agg(first("FIELD_VALUE"))
     .select(
         "ProviderID",
         "FirstName",
@@ -218,6 +219,10 @@ silver_df = (
         "BATCH_ID"
     )
 )
+
+# COMMAND ----------
+
+silver_df = silver_df.drop("PROVIDER_JSON")
 
 # COMMAND ----------
 
@@ -394,3 +399,7 @@ silver_table_df.printSchema()
 # Display the total number of provider records available in the Silver layer.
 
 print(f"Silver Record Count : {silver_table_df.count()}")
+
+# COMMAND ----------
+
+silver_df.count()

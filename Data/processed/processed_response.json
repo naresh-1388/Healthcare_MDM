@@ -207,5 +207,5021 @@
                 "fuzzyPrecision": 100
             }
         ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1063836062"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "BUDRI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "A SHARIF"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "BUDRI A SHARIF"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2014-02-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2014-02-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "733 RUTLAND AVE."
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212052109"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "390200000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Student in an Organized Health Care Education/Training Program"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1215469515"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "SEYED HOSSEIN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AALAEI-ANDABILI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "SEYED HOSSEIN AALAEI-ANDABILI"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2017-03-28"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2024-12-09"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "1800 ORLEANS STREET ZAYED 7122"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212643003"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-955-9555"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207RC0000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Internal Medicine, Cardiovascular Disease"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "D98648"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1174578876"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "BIZHAN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AARABI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "BIZHAN AARABI"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2006-05-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2008-02-04"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "PO BOX 64315"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212644315"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-328-8209"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "410-328-1413"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207T00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Neurological Surgery"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "D0020854"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    "253902100"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    "MEDICAID"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1659657526"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "AMANDA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AARON"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "AMANDA AARON"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "OTR/L"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2011-10-24"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2021-09-08"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "3501 TAYLOR AVE # 216"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212364406"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-690-8848"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "225X00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Occupational Therapist"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1003294232"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "RACHEL"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AARON"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "RACHEL AARON"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "PhD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2015-05-07"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2019-06-10"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "600 N WOLFE STREET"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212870005"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-614-4030"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "410-614-4033"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "103TR0400X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Psychologist, Rehabilitation"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "06162"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1376610790"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "SCOTT"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "TYLER"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AARONSON"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "SCOTT TYLER AARONSON"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2006-11-29"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2007-07-08"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "6501 N CHARLES ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212046819"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-938-3464"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "410-938-3410"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "2084P0800X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Psychiatry & Neurology, Psychiatry"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "D0057794"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1831139005"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "RICHARD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "J."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AASHEIM"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "RICHARD J. AASHEIM"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2006-06-07"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2015-06-16"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "438 E VANN RD"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "GREENEVILLE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "TN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "377437202"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "423-278-1700"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "423-278-1712"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207Q00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Family Medicine"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "010133"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "TN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    "31788591"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    "MEDICAID"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1174057905"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ALINA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "H."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "AASIM"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ALINA H. AASIM"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2017-04-18"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2023-04-13"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "PO BOX 64442"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212644442"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-328-8040"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "443-462-3514"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207R00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Internal Medicine"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "D95051"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1902488422"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ANGELA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABADIR"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ANGELA ABADIR"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2021-04-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2021-04-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "106 W UNIVERSITY PKWY APT 507"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212103518"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "301-910-1367"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "101YP2500X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Counselor, Professional"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    "LGP11370"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    "Maryland Board of Professional Counselors & Therapists"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    "Other (non-Medicare)"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1871792432"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "PETER"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABADIR"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "PETER M ABADIR"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2007-07-13"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2013-01-31"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "PO BOX 64264"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212644264"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-550-5436"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207RG0300X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Internal Medicine, Geriatric Medicine"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "D67735"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    "024897500"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    "MEDICAID"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1265939722"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "VICTOR"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "IFEANYI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABADOM"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "VICTOR IFEANYI ABADOM"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2018-04-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2018-04-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "3914 HICKORY AVE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212111834"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-472-8760"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "111N00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Chiropractor"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "s03968"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1871054494"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "NAOMI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABAGA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "NAOMI ABAGA"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "CRNP"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2019-03-27"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2019-03-27"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "9329 PAN RIDGE RD"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212341528"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "202-823-8849"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "363LF0000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Nurse Practitioner, Family"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "R189820"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1255928115"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "VICTORIA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABAH"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "VICTORIA ABAH"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2020-12-28"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2020-12-28"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "225 N CALVERT ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212024937"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "866-287-2036"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "106S00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Behavior Technician"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1639736796"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "TALAL"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABALKHAIL"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "TALAL ABALKHAIL"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "MBBS"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2019-05-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2019-05-23"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "2401 W. BELVEDERE AVENUE, BALTIMORE, MD 21215"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "21215"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "390200000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Student in an Organized Health Care Education/Training Program"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1578210035"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ELISABETH"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABAMINA-LETTE"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ELISABETH ABAMINA-LETTE"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "PMHNP-BC"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2022-03-04"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2022-03-04"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "827 LINDEN AVE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212014606"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-225-8000"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "363LP0808X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Nurse Practitioner, Psych/Mental Health"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "221403"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1366053332"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ELIZABETH"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABANDO"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ELIZABETH ABANDO"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "RN, IBCLC, FNP-BC"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2020-08-13"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2025-11-17"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "PO BOX 37174"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212973174"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "571-423-5699"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "571-423-5698"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "363LF0000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Nurse Practitioner, Family"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "0024187817"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "VA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1669214094"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "RAFIA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABANGA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "RAFIA ABANGA"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "M.D."
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2024-06-07"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2025-03-20"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "SINAI HOSPITAL OF BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "21215"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-601-7649"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "410-601-6308"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "390200000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Student in an Organized Health Care Education/Training Program"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1881138931"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "RACHELLE VERA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABANTE"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "RACHELLE VERA ABANTE"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "PT"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2016-12-08"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2019-12-02"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "6451 N CHARLES ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212121010"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "877-407-3422"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "225100000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Physical Therapist"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1528813292"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "CHINWE"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABARAOHA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "CHINWE ABARAOHA"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "DO"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2024-04-17"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2024-04-17"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "9000 FRANKLIN SQUARE DR DEPT OF"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212373901"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-777-2000"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "390200000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Student in an Organized Health Care Education/Training Program"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1285195123"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "KARA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "ANGELA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABARCAR"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "KARA ANGELA ABARCAR"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2019-03-25"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2022-05-31"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "1800 ORLEANS ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212870010"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-955-3380"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "207P00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Emergency Medicine"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "d93593"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1114049038"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "DONALD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "NATHAN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABARIA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "DONALD NATHAN ABARIA"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "Physical therapist"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2007-04-03"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2007-07-08"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "3332 PAINE ST"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212112740"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "410-303-0661"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "225100000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Physical Therapist"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "18555"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1003875014"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "IMRAN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "MUHAMMAD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABASSI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "IMRAN MUHAMMAD ABASSI"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "M"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2006-03-20"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2023-04-11"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "224A CORNWALL ST NW"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "LEESBURG"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "VA"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "201762701"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "703-771-2894"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    "703-779-5429"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "2084P0800X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Psychiatry & Neurology, Psychiatry"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "35. 084845"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "OH"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    "1003875014"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    "MEDICAID"
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1245839653"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ITORO"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABATAI"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ITORO ABATAI"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2020-10-19"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2025-04-15"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "2300 GARRISON BLVD STE 205"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212162309"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    "443-691-5498"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "363LP0808X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Nurse Practitioner, Psych/Mental Health"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "R220850"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
+    },
+    {
+        "resultSize": "20",
+        "entityType": "Activity",
+        "codBases": [
+            "US"
+        ],
+        "fields": [
+            {
+                "method": "EXACT",
+                "name": "ProviderID",
+                "values": [
+                    "1245760370"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FirstName",
+                "values": [
+                    "ROSE"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "MiddleName",
+                "values": [
+                    "KATHLEEN"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastName",
+                "values": [
+                    "ABATE"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "FullName",
+                "values": [
+                    "ROSE KATHLEEN ABATE"
+                ],
+                "fuzzyPrecision": 95
+            },
+            {
+                "method": "EXACT",
+                "name": "Credential",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Gender",
+                "values": [
+                    "F"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Status",
+                "values": [
+                    "A"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "EnumerationDate",
+                "values": [
+                    "2017-06-12"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LastUpdated",
+                "values": [
+                    "2017-06-12"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "AddressLine1",
+                "values": [
+                    "3122 E NORTHERN PKWY"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "FUZZY",
+                "name": "City",
+                "values": [
+                    "BALTIMORE"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "State",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PostalCode",
+                "values": [
+                    "212141420"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryCode",
+                "values": [
+                    "US"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "CountryName",
+                "values": [
+                    "United States"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "PhoneNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "FaxNumber",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "TaxonomyCode",
+                "values": [
+                    "231H00000X"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "FUZZY",
+                "name": "TaxonomyDescription",
+                "values": [
+                    "Audiologist"
+                ],
+                "fuzzyPrecision": 90
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseNumber",
+                "values": [
+                    "01415"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "LicenseState",
+                "values": [
+                    "MD"
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "Identifier",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierIssuer",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            },
+            {
+                "method": "EXACT",
+                "name": "IdentifierType",
+                "values": [
+                    ""
+                ],
+                "fuzzyPrecision": 100
+            }
+        ]
     }
 ]

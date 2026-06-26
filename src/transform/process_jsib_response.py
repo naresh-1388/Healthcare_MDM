@@ -206,7 +206,8 @@ def process_jsib_response(response_json: dict) -> dict:
             transformed_records.append(
                 provider_record
             )
-            return {
+
+        return {
 
             "searchResult": {
 
@@ -220,7 +221,7 @@ def process_jsib_response(response_json: dict) -> dict:
 
         }
 
-    except Exception as exception:
+    except Exception:
 
         logger.exception(                                              # Log the complete exception with stack trace
             "Failed while processing the NPPES provider response."

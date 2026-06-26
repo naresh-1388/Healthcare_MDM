@@ -54,7 +54,10 @@ def get_provider_data():
     params = {
         "version": API_VERSION,                                         # Mandatory API version
         "city": "Baltimore",                                            # Sample search criteria
-        "limit": 10,                                                    # Number of provider records
+        "state": "MD",
+        "enumeration_type": "NPI-1",
+        "limit": 25,                                                    # Number of provider records
+        "skip": 0,
         "pretty": "on"                                                  # Pretty JSON response
     }
 
@@ -138,6 +141,8 @@ def main():
 
     processed_response = process_provider_data(raw_response)            # Process and transform provider records
 
+    print(f"Processed Records : {len(processed_response)}")
+    
     save_processed_json(processed_response)                             # Save processed provider payload
 
     print("Provider extraction completed successfully.")
