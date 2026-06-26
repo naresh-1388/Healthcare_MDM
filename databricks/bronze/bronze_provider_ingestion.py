@@ -32,15 +32,19 @@ provider_df = spark.read.option(
 #
 # Bronze Layer Responsibilities
 #
-# 1. Preserve the complete provider payload without modification.
+# 1. Preserve the complete provider payload.
 # 2. Convert every provider record into a single JSON document.
-# 3. Add ingestion metadata for auditing and lineage.
-# 4. Store batch information for tracking every pipeline execution.
+# 3. Add ingestion metadata.
+# 4. Track the original source system.
+# 5. Track the payload format.
+# 6. Track the target consuming system.
 #
 # Metadata Columns
 #
 # PROVIDER_JSON
 # SOURCE_SYSTEM
+# PAYLOAD_FORMAT
+# TARGET_SYSTEM
 # LOAD_TIMESTAMP
 # LOAD_DATE
 # FILE_NAME
@@ -60,34 +64,61 @@ bronze_df = (
             struct(*provider_df.columns)
         )
     )
+
     .withColumn(
         "SOURCE_SYSTEM",
         lit("NPPES")
     )
+
+    .withColumn(
+        "PAYLOAD_FORMAT",
+        lit("JSIB")
+    )
+
+    .withColumn(
+        "TARGET_SYSTEM",
+        lit("ORIEO")
+    )
+
     .withColumn(
         "LOAD_TIMESTAMP",
         current_timestamp()
     )
+
     .withColumn(
         "LOAD_DATE",
         current_date()
     )
+
     .withColumn(
         "FILE_NAME",
         lit("processed_response.json")
     )
+
     .withColumn(
         "BATCH_ID",
         lit("BATCH_001")
     )
+
     .select(
         "PROVIDER_JSON",
+
         "SOURCE_SYSTEM",
+
+        "PAYLOAD_FORMAT",
+
+        "TARGET_SYSTEM",
+
         "LOAD_TIMESTAMP",
+
         "LOAD_DATE",
+
         "FILE_NAME",
+
         "BATCH_ID"
+
     )
+
 )
 
 # COMMAND ----------
@@ -191,12 +222,14 @@ bronze_table_df.select(
 
 # COMMAND ----------
 
-# Display the ingestion metadata.
+# Display ingestion metadata.
 #
-# Purpose : Validate auditing, lineage and batch tracking information.
+# Purpose : Validate auditing, lineage, payload format and target system.
 
 bronze_table_df.select(
     "SOURCE_SYSTEM",
+    "PAYLOAD_FORMAT",
+    "TARGET_SYSTEM",
     "LOAD_TIMESTAMP",
     "LOAD_DATE",
     "FILE_NAME",
