@@ -183,7 +183,11 @@ Healthcare_MDM/
 │   │   └── silver_provider_standardization.py
 │   └── gold/
 │       └── gold_provider_mdm.py
-├── docs/
+├── docs/ 
+├   ├──  architecture.md
+│   ├── source_analysis.md
+├   ├── field_mapping.md
+├
 ├── healthcare_mdm_dbt/
 │   ├── models/
 │   │   ├── sources.yml
