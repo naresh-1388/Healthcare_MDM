@@ -1,10 +1,8 @@
 # Healthcare Master Data Management (Healthcare_MDM)
-## Complete Project Documentation
 
 # Author
 
 **Naresh Mayari**
-
  Data Engineer | Python | PySpark | Databricks | Snowflake | dbt | AWS | Power BI
 
 - GitHub: https://github.com/naresh-1388
@@ -15,7 +13,7 @@
 ---
 ## End-to-End Architecture
 
-![Architecture]()
+![Architecture](powerbi/Screenshots/architecture.png)
 
 
 ## Table of Contents
