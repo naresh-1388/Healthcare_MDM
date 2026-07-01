@@ -1,223 +1,153 @@
-# Source Analysis
+# Source System Analysis
 
-## Project Name
-
-Healthcare_MDM
+## Project Objective
+The objective of this project is to build a Healthcare Master Data Management (MDM) pipeline that extracts healthcare provider data from the NPPES Registry API, standardizes and validates the records, generates trusted Golden Records, and makes them available for analytics through Snowflake, dbt, and Power BI.
 
 ---
 
-# Source System
+## Source System
 
-Source Name:
-NPPES Provider Registry API
+| Property | Value |
+|----------|-------|
+| Source | NPPES Registry API |
+| Organization | Centers for Medicare & Medicaid Services (CMS) |
+| Data Format | JSON |
+| API Type | REST |
+| Authentication | Public API (No Authentication Required) |
 
-Official Website:
-https://npiregistry.cms.hhs.gov/
+---
 
-API Endpoint:
+## API Endpoint
+
+```text
 https://npiregistry.cms.hhs.gov/api/
+```
 
-Purpose:
-The NPPES API provides healthcare provider information such as doctors, physicians, hospitals, and other healthcare professionals registered in the United States.
+### Request Parameters
 
-For this project, the NPPES API acts as our source system (similar to JSIB in the original project).
-
----
-
-# Why We Selected This API
-
-We selected the NPPES API because:
-
-- It is free to use.
-- No API key is required.
-- It provides real healthcare provider information.
-- It returns data in JSON format.
-- It is suitable for Data Engineering projects.
-- It supports provider search.
-- It contains real provider identifiers.
-
-This makes it a good source system for building a Healthcare Master Data Management (MDM) project.
+| Parameter | Description |
+|-----------|-------------|
+| version | API Version |
+| city | Provider City |
+| state | Provider State |
+| enumeration_type | NPI-1 |
+| limit | Number of Records |
+| skip | Pagination Offset |
 
 ---
 
-# Business Requirement
+## Data Extraction Process
 
-The client wants to build a centralized Healthcare Provider Master.
-
-The system should:
-
-- Extract provider data from NPPES.
-- Store the raw data.
-- Clean and standardize the data.
-- Remove duplicate providers.
-- Create a Golden Provider Record.
-- Load the final provider data into Snowflake.
-- Make the data available for downstream systems.
-
----
-
-# Source Type
-
-REST API
-
-Response Format:
-JSON
-
-Authentication:
-No authentication required.
-
-API Key:
-Not required.
-
----
-
-# Expected Search Parameters
-
-The API supports searching providers using different filters such as:
-
-- NPI Number
-- First Name
-- Last Name
-- Organization Name
-- City
-- State
-- Postal Code
-- Taxonomy
-- Enumeration Type
-
-These filters help retrieve specific healthcare providers.
-
----
-
-# Expected Response
-
-The API returns healthcare provider information.
-
-Common fields include:
-
-- NPI Number
-- Provider Name
-- Organization Name
-- Address
-- City
-- State
-- Postal Code
-- Country
-- Taxonomy
-- Provider Type
-- Enumeration Date
-- Last Updated Date
-- Status
-
-The exact response depends on the search request.
-
----
-
-# Primary Business Key
-
-NPI Number
-
-Reason:
-
-The NPI (National Provider Identifier) is unique for every healthcare provider.
-
-This will be used as the primary identifier throughout the project.
-
----
-
-# Project Architecture
-
+```
 NPPES API
-      |
-      V
+      │
+      ▼
+Python Request
+      │
+      ▼
+Raw JSON
+      │
+      ▼
+Standardization
+      │
+      ▼
+JISB Payload
+      │
+      ▼
+Processed JSON
+```
+
+---
+
+## Source Data Characteristics
+
+- Nested JSON Structure
+- Multiple Addresses
+- Multiple Taxonomies
+- Multiple Identifiers
+- Optional Attributes
+- Missing Values
+- Duplicate Providers Across Systems
+
+---
+
+## Mandatory Business Fields
+
+- ProviderID
+- FullName
+- Status
+- TaxonomyCode
+- CountryCode
+
+---
+
+## Optional Fields
+
+- PhoneNumber
+- FaxNumber
+- Identifier
+- LicenseNumber
+- Credential
+- PostalCode
+
+---
+
+## Data Challenges
+
+- Nested JSON Arrays
+- Null Values
+- Duplicate Provider Records
+- Inconsistent Name Formats
+- Multiple Addresses
+- Multiple Taxonomies
+- Missing Contact Information
+
+---
+
+## Business Rules
+
+| Rule ID | Description |
+|----------|-------------|
+| BR-001 | ProviderID must not be NULL |
+| BR-002 | Provider Status must be Active |
+| BR-003 | TaxonomyCode must not be NULL |
+| BR-004 | CountryCode must be US |
+
+---
+
+## Data Quality Rules
+
+| Rule ID | Description |
+|----------|-------------|
+| DQ-001 | PhoneNumber Missing |
+| DQ-002 | LicenseNumber Missing |
+| DQ-003 | Identifier Missing |
+
+---
+
+## Source to Processing Flow
+
+```
+NPPES API
+      │
+      ▼
 Python Extraction
-      |
-      V
+      │
+      ▼
+Raw JSON
+      │
+      ▼
+Processed JSON
+      │
+      ▼
+AWS S3
+      │
+      ▼
 Databricks Bronze
-      |
-      V
-Databricks Silver
-      |
-      V
-Databricks Gold
-      |
-      V
-Snowflake
-      |
-      V
-Downstream Systems
+```
 
 ---
 
-# Bronze Layer
+## Output of Source Layer
 
-Purpose:
-
-Store the raw API response without making any changes.
-
-No transformation.
-
-No deduplication.
-
-No business rules.
-
----
-
-# Silver Layer
-
-Purpose:
-
-Clean and standardize the provider data.
-
-Activities:
-
-- Extract required fields.
-- Standardize names.
-- Standardize addresses.
-- Handle missing values.
-- Prepare data for business processing.
-
----
-
-# Gold Layer
-
-Purpose:
-
-Create the final Provider Master.
-
-Activities:
-
-- Deduplicate providers.
-- Create Golden Records.
-- Apply business rules.
-- Prepare final reporting data.
-
----
-
-# Data Engineering Responsibilities
-
-- API Integration
-- Data Extraction
-- Data Validation
-- Data Cleaning
-- Standardization
-- Deduplication
-- Master Data Creation
-- Data Loading
-- Data Quality Checks
-
----
-
-# Future Enhancements
-
-Later phases of the project will include:
-
-- Incremental Loads
-- Change Data Capture (CDC)
-- Databricks Workflows
-- dbt Models
-- Snowflake Tasks
-- Monitoring
-- Logging
-- Error Handling
-- Scheduling
+The source layer produces standardized JISB payloads that are stored in AWS S3 Processed storage. These files become the input for the Databricks Bronze layer and initiate the downstream Medallion Architecture pipeline.
