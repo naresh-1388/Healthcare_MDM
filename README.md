@@ -15,7 +15,7 @@
 ---
 ## End-to-End Architecture
 
-![Architecture](powerbi/screenshots/architecture.png)
+![Architecture](powerbi/Screenshots/architecture.png)
 
 
 ## Table of Contents
