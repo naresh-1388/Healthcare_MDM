@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: gold
+    description: "Gold layer containing curated provider master data."
+
+    database: ORIEO_DB
+    schema: GOLD_SC
+
+    tables:
+      - name: provider_gold
+        description: "Curated provider master table loaded from Snowflake Task."

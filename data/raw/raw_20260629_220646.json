@@ -1,0 +1,320 @@
+{
+    "result_count": 5,
+    "results": [
+        {
+            "addresses": [
+                {
+                    "address_1": "6275 WOODCREST DR",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "ELLICOTT CITY",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "210437910",
+                    "state": "MD",
+                    "telephone_number": "410-799-4468"
+                },
+                {
+                    "address_1": "2560 W FRANKLIN ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212231106",
+                    "state": "MD",
+                    "telephone_number": "410-362-8803"
+                }
+            ],
+            "basic": {
+                "credential": "R ph.",
+                "enumeration_date": "2014-07-07",
+                "first_name": "DARIO",
+                "last_name": "ABBASIAN",
+                "last_updated": "2014-07-07",
+                "name_prefix": "Mr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1404750727000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1404750727000",
+            "number": "1013323427",
+            "other_names": [
+                {
+                    "code": "2",
+                    "credential": "R ph.",
+                    "first_name": "DARIO",
+                    "last_name": "ABBASIAN",
+                    "prefix": "Mr.",
+                    "suffix": "--",
+                    "type": "Professional Name"
+                }
+            ],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "183500000X",
+                    "desc": "Pharmacist",
+                    "license": "13089",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "PO BOX 631856",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212631856",
+                    "state": "MD"
+                },
+                {
+                    "address_1": "3800 RESERVOIR RD NW",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "WASHINGTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "200072113",
+                    "state": "DC",
+                    "telephone_number": "202-444-8881"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2005-07-12",
+                "first_name": "VALIOLLAH",
+                "last_name": "ABBASSI",
+                "last_updated": "2007-09-10",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1121181413000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1189450497000",
+            "number": "1073511275",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "2080P0205X",
+                    "desc": "Pediatrics, Pediatric Endocrinology",
+                    "license": "25531",
+                    "primary": true,
+                    "state": "DC",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "4940 EASTERN AVE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212242735",
+                    "state": "MD",
+                    "telephone_number": "513-532-7066"
+                },
+                {
+                    "address_1": "6201 GREENLEIGH AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "MIDDLE RIVER",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212202004",
+                    "state": "MD",
+                    "telephone_number": "410-933-6423"
+                }
+            ],
+            "basic": {
+                "certification_date": "2023-09-01",
+                "credential": "MD",
+                "enumeration_date": "2019-04-01",
+                "first_name": "ALEXANDRA",
+                "last_name": "ABBATE",
+                "last_updated": "2023-09-01",
+                "middle_name": "MARIE",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1554158520000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1693566372000",
+            "number": "1194287003",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207V00000X",
+                    "desc": "Obstetrics & Gynecology",
+                    "license": "BP10066803",
+                    "primary": false,
+                    "state": "TX",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207V00000X",
+                    "desc": "Obstetrics & Gynecology",
+                    "license": "D0097043",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "519 BAYVIEW BLVD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212242825",
+                    "state": "MD",
+                    "telephone_number": "443-335-6910"
+                },
+                {
+                    "address_1": "1816 EARL DR",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BEL AIR",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "210152037",
+                    "state": "MD",
+                    "telephone_number": "443-243-5397"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-01-21",
+                "credential": "PT, DPT",
+                "enumeration_date": "2018-11-12",
+                "first_name": "EIRIKA",
+                "last_name": "ABBEY",
+                "last_updated": "2025-01-21",
+                "middle_name": "DEBORAH",
+                "name_prefix": "Dr.",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1542034236000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1737500119000",
+            "number": "1346718046",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "2027 PULASKI HWY STE 119",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "HAVRE DE GRACE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "443-502-2764",
+                    "postal_code": "210782146",
+                    "state": "MD",
+                    "telephone_number": "443-502-2128"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "225100000X",
+                    "desc": "Physical Therapist",
+                    "license": "27288",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1101 SAINT PAUL ST",
+                    "address_2": "406",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-528-1642",
+                    "postal_code": "212022619",
+                    "state": "MD",
+                    "telephone_number": "410-528-1642"
+                },
+                {
+                    "address_1": "1101 SAINT PAUL ST",
+                    "address_2": "406",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-528-1642",
+                    "postal_code": "212022619",
+                    "state": "MD",
+                    "telephone_number": "410-528-1642"
+                }
+            ],
+            "basic": {
+                "credential": "Phd",
+                "enumeration_date": "2007-01-19",
+                "first_name": "ANTHONY",
+                "last_name": "ABBONDANDOLO",
+                "last_updated": "2007-07-08",
+                "middle_name": "JOSEPH",
+                "name_prefix": "Dr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1169244191000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1183947785000",
+            "number": "1174676233",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "103T00000X",
+                    "desc": "Psychologist",
+                    "license": "1920",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        }
+    ]
+}

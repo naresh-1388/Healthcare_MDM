@@ -1,0 +1,695 @@
+{
+    "result_count": 10,
+    "results": [
+        {
+            "addresses": [
+                {
+                    "address_1": "1800 ORLEANS ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212870010",
+                    "state": "MD",
+                    "telephone_number": "410-955-5000"
+                },
+                {
+                    "address_1": "6201 GREENLEIGH AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212202004",
+                    "state": "MD",
+                    "telephone_number": "410-933-6423"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-08-27",
+                "credential": "CRNP",
+                "enumeration_date": "2025-05-23",
+                "first_name": "CATHERINE",
+                "last_name": "ABBOT",
+                "last_updated": "2025-08-27",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1748034602000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1756298340000",
+            "number": "1942093810",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363LN0000X",
+                    "desc": "Nurse Practitioner, Neonatal",
+                    "license": "R233489",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1741 ASHLAND AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212051531",
+                    "state": "MD",
+                    "telephone_number": "443-923-1870"
+                },
+                {
+                    "address_1": "707 N BROADWAY",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212051888",
+                    "state": "MD",
+                    "telephone_number": "443-923-1870"
+                }
+            ],
+            "basic": {
+                "certification_date": "2026-01-29",
+                "credential": "OTR/L",
+                "enumeration_date": "2026-01-29",
+                "first_name": "ASHLEY",
+                "last_name": "ABBOTT",
+                "last_updated": "2026-01-29",
+                "sex": "F",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1769725503000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1769725503000",
+            "number": "1558211557",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "225X00000X",
+                    "desc": "Occupational Therapist",
+                    "license": "09180",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "2449 FREDERICK AVE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-383-3160",
+                    "postal_code": "212232856",
+                    "state": "MD",
+                    "telephone_number": "410-383-8300"
+                },
+                {
+                    "address_1": "2449 FREDERICK AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-383-3160",
+                    "postal_code": "212232856",
+                    "state": "MD",
+                    "telephone_number": "410-383-8300"
+                }
+            ],
+            "basic": {
+                "certification_date": "2023-10-17",
+                "credential": "MD",
+                "enumeration_date": "2006-06-28",
+                "first_name": "BERNARD",
+                "last_name": "ABBOTT",
+                "last_updated": "2023-10-17",
+                "middle_name": "R",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1151532281000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "030951600",
+                    "issuer": null,
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1697570144000",
+            "number": "1063440329",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "1215 ANNAPOLIS RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "ODENTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-383-3160",
+                    "postal_code": "211131344",
+                    "state": "MD",
+                    "telephone_number": "410-383-8300"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "208000000X",
+                    "desc": "Pediatrics",
+                    "license": "D0029508",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "PO BOX 69030",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "757-873-2306",
+                    "postal_code": "212649030",
+                    "state": "MD",
+                    "telephone_number": "757-873-2302"
+                },
+                {
+                    "address_1": "9 MANHATTAN SQ STE B",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "HAMPTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "757-825-0392",
+                    "postal_code": "236666263",
+                    "state": "VA",
+                    "telephone_number": "757-825-3400"
+                }
+            ],
+            "basic": {
+                "credential": "PT",
+                "enumeration_date": "2006-04-04",
+                "first_name": "DONNA",
+                "last_name": "ABBOTT",
+                "last_updated": "2018-04-12",
+                "name_prefix": "Mrs.",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1144176761000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "650017802",
+                    "issuer": "Railroad Medicare",
+                    "state": "VA"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "192965",
+                    "issuer": "BCBS Physical Therapy",
+                    "state": "VA"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "5423096",
+                    "issuer": "Aetna",
+                    "state": null
+                },
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "8928690",
+                    "issuer": null,
+                    "state": "VA"
+                }
+            ],
+            "last_updated_epoch": "1523541270000",
+            "number": "1154383255",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "225100000X",
+                    "desc": "Physical Therapist",
+                    "license": "2305003946",
+                    "primary": true,
+                    "state": "VA",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "103 PINE ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "CHESTERTOWN",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "216201208",
+                    "state": "MD",
+                    "telephone_number": "410-507-0257"
+                },
+                {
+                    "address_1": "9000 FRANKLIN SQUARE DR",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212373901",
+                    "state": "MD",
+                    "telephone_number": "443-777-7046"
+                }
+            ],
+            "basic": {
+                "credential": "PA-C",
+                "enumeration_date": "2014-09-05",
+                "first_name": "ERIC",
+                "last_name": "ABBOTT",
+                "last_updated": "2014-09-05",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1409929863000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1409929863000",
+            "number": "1669873089",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363A00000X",
+                    "desc": "Physician Assistant",
+                    "license": "C05498",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1405 LOWMAN ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-762-4903",
+                    "postal_code": "212305228",
+                    "state": "MD",
+                    "telephone_number": "410-397-5342"
+                },
+                {
+                    "address_1": "1405 LOWMAN ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-762-4903",
+                    "postal_code": "212305228",
+                    "state": "MD",
+                    "telephone_number": "410-397-5342"
+                }
+            ],
+            "basic": {
+                "certification_date": "2026-06-18",
+                "credential": "PMHNP-BC",
+                "enumeration_date": "2013-10-31",
+                "first_name": "LINDSAY",
+                "last_name": "ABBOTT",
+                "last_updated": "2026-06-18",
+                "middle_name": "BROOKE",
+                "name_prefix": "Ms.",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1383242179000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1781774820000",
+            "number": "1205264116",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "301 HOSPITAL DR",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "GLEN BURNIE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "210615803",
+                    "state": "MD",
+                    "telephone_number": "410-787-4000"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "363LP0808X",
+                    "desc": "Nurse Practitioner, Psych/Mental Health",
+                    "license": "R230867",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "623 MCKOY ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "DECATUR",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "300304953",
+                    "state": "GA",
+                    "telephone_number": "515-401-7536"
+                },
+                {
+                    "address_1": "6325 HOSPITAL PKWY",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "JOHNS CREEK",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "300975775",
+                    "state": "GA",
+                    "telephone_number": "678-474-7000"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-06-11",
+                "credential": "M.D.",
+                "enumeration_date": "2016-04-09",
+                "first_name": "LINDSEA",
+                "last_name": "ABBOTT",
+                "last_updated": "2025-06-11",
+                "middle_name": "JACQUELINE",
+                "name_prefix": "Dr.",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1460240044000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1749690425000",
+            "number": "1841654464",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "110 IRVING ST NW",
+                    "address_2": "DEPT OF EMERGENCY MEDICINE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "WASHINGTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "202-877-7633",
+                    "postal_code": "200103017",
+                    "state": "DC",
+                    "telephone_number": "202-877-8080"
+                },
+                {
+                    "address_1": "201 E UNIVERSITY PKWY",
+                    "address_2": "DEPT EMERGENCY MEDICINE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212182829",
+                    "state": "MD",
+                    "telephone_number": "410-554-2626"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "207P00000X",
+                    "desc": "Emergency Medicine",
+                    "license": "D0087166",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207P00000X",
+                    "desc": "Emergency Medicine",
+                    "license": "102073",
+                    "primary": true,
+                    "state": "GA",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "7253 AMBASSADOR RD",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "443-436-1256",
+                    "postal_code": "212442710",
+                    "state": "MD",
+                    "telephone_number": "443-436-1151"
+                },
+                {
+                    "address_1": "7253 AMBASSADOR RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "443-436-1256",
+                    "postal_code": "212442710",
+                    "state": "MD",
+                    "telephone_number": "443-436-1151"
+                }
+            ],
+            "basic": {
+                "credential": "MD",
+                "enumeration_date": "2006-06-22",
+                "first_name": "ROBERT",
+                "last_name": "ABBOTT",
+                "last_updated": "2013-12-19",
+                "middle_name": "M",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1150985712000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "401482100",
+                    "issuer": null,
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1387478264000",
+            "number": "1427094846",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "2085R0202X",
+                    "desc": "Radiology, Diagnostic Radiology",
+                    "license": "D0051453",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "707 N BROADWAY",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212051832",
+                    "state": "MD",
+                    "telephone_number": "443-923-4500"
+                },
+                {
+                    "address_1": "707 N BROADWAY",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212051832",
+                    "state": "MD"
+                }
+            ],
+            "basic": {
+                "certification_date": "2026-04-20",
+                "enumeration_date": "2019-05-13",
+                "first_name": "TARILA",
+                "last_name": "ABBOTT",
+                "last_updated": "2026-04-20",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1557775192000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1776688551000",
+            "number": "1255997466",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "1201 HOMESTEAD LN",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "HERSHEY",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "170338818",
+                    "state": "PA",
+                    "telephone_number": "850-363-3564"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "103T00000X",
+                    "desc": "Psychologist",
+                    "license": "06611",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "PO BOX 69709",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-860-9583",
+                    "postal_code": "212649709",
+                    "state": "MD",
+                    "telephone_number": "410-749-4154"
+                },
+                {
+                    "address_1": "1675 WOODBROOKE DR",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "SALISBURY",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-860-9583",
+                    "postal_code": "218048502",
+                    "state": "MD",
+                    "telephone_number": "410-749-4154"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-09-18",
+                "credential": "PA",
+                "enumeration_date": "2014-01-06",
+                "first_name": "TREVOR",
+                "last_name": "ABBOTT",
+                "last_updated": "2025-09-18",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1389023935000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1758206186000",
+            "number": "1578984803",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363A00000X",
+                    "desc": "Physician Assistant",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        }
+    ]
+}

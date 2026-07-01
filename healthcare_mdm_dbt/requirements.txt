@@ -1,0 +1,6 @@
+dbt-core==1.11.11
+dbt-common==1.32.0
+dbt-adapters==1.17.3
+dbt-snowflake==1.11.6
+agate==1.9.1
+Jinja2==3.1.6

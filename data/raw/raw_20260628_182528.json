@@ -1,0 +1,758 @@
+{
+    "result_count": 10,
+    "results": [
+        {
+            "addresses": [
+                {
+                    "address_1": "103 E READ ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-659-1943",
+                    "postal_code": "212022403",
+                    "state": "MD",
+                    "telephone_number": "410-234-0007"
+                },
+                {
+                    "address_1": "103 E READ ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-659-1943",
+                    "postal_code": "212022403",
+                    "state": "MD",
+                    "telephone_number": "410-234-0007"
+                }
+            ],
+            "basic": {
+                "credential": "Ph.D.",
+                "enumeration_date": "2007-04-23",
+                "first_name": "STEFFI",
+                "last_name": ".RESNICK",
+                "last_updated": "2025-09-11",
+                "middle_name": "BETH",
+                "name_prefix": "Dr.",
+                "name_suffix": "--",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1177362431000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "32448",
+                    "issuer": "MAMSI",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "428144001",
+                    "issuer": "CIGNA",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "4673985",
+                    "issuer": "AETNA",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "521456813",
+                    "issuer": "UNITED HEALTHCARE",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "H412S",
+                    "issuer": "CAREFIRST BC BS MD",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "J210",
+                    "issuer": "CAREFIRST BC BS NCA",
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1757623214000",
+            "number": "1073731121",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "231H00000X",
+                    "desc": "Audiologist",
+                    "license": "0176",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "237600000X",
+                    "desc": "Audiologist-Hearing Aid Fitter",
+                    "license": "0176",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "733 RUTLAND AVE.",
+                    "address_2": "THE JOHNS HOPKINS SCHOOL OF MEDICINE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212052109",
+                    "state": "MD"
+                },
+                {
+                    "address_1": "THE JOHNS HOPKINS HOSPITAL",
+                    "address_2": "600 NORTH WOLFE STREET",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212872109",
+                    "state": "MD",
+                    "telephone_number": "410-955-5000"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2014-02-11",
+                "first_name": "BUDRI",
+                "last_name": "A SHARIF",
+                "last_updated": "2014-02-11",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1392141137000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1392141137000",
+            "number": "1063836062",
+            "other_names": [
+                {
+                    "code": "5",
+                    "first_name": "BUDRI",
+                    "last_name": "ABUBAKER-SHARIF",
+                    "prefix": "--",
+                    "suffix": "--",
+                    "type": "Other Name"
+                }
+            ],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1800 ORLEANS STREET ZAYED 7122",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212643003",
+                    "state": "MD",
+                    "telephone_number": "410-955-9555"
+                },
+                {
+                    "address_1": "6201 GREENLEIGH AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "MIDDLE RIVER",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212202004",
+                    "state": "MD",
+                    "telephone_number": "410-933-6423"
+                }
+            ],
+            "basic": {
+                "certification_date": "2024-12-09",
+                "credential": "M.D",
+                "enumeration_date": "2017-03-28",
+                "first_name": "SEYED HOSSEIN",
+                "last_name": "AALAEI-ANDABILI",
+                "last_updated": "2024-12-09",
+                "name_prefix": "Dr.",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1490720797000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1733773129000",
+            "number": "1215469515",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "1600 SW ARCHER RD",
+                    "address_2": "SUITE 4102",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "GAINESVILLE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "352-265-1107",
+                    "postal_code": "326103003",
+                    "state": "FL",
+                    "telephone_number": "352-265-0239"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "207RC0000X",
+                    "desc": "Internal Medicine, Cardiovascular Disease",
+                    "license": "D98648",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "PO BOX 64315",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-328-1413",
+                    "postal_code": "212644315",
+                    "state": "MD",
+                    "telephone_number": "410-328-8209"
+                },
+                {
+                    "address_1": "22 S GREENE ST",
+                    "address_2": "S12D",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-328-1413",
+                    "postal_code": "212011544",
+                    "state": "MD",
+                    "telephone_number": "410-328-8209"
+                }
+            ],
+            "basic": {
+                "credential": "MD",
+                "enumeration_date": "2006-05-23",
+                "first_name": "BIZHAN",
+                "last_name": "AARABI",
+                "last_updated": "2008-02-04",
+                "name_prefix": "Dr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1148400877000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "253902100",
+                    "issuer": null,
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1202142966000",
+            "number": "1174578876",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207T00000X",
+                    "desc": "Neurological Surgery",
+                    "license": "D0020854",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "3501 TAYLOR AVE # 216",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212364406",
+                    "state": "MD",
+                    "telephone_number": "443-690-8848"
+                },
+                {
+                    "address_1": "3501 TAYLOR AVE # 216",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212364406",
+                    "state": "MD",
+                    "telephone_number": "443-690-8848"
+                }
+            ],
+            "basic": {
+                "certification_date": "2021-09-08",
+                "credential": "OTR/L",
+                "enumeration_date": "2011-10-24",
+                "first_name": "AMANDA",
+                "last_name": "AARON",
+                "last_updated": "2021-09-08",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1319491649000",
+            "endpoints": [
+                {
+                    "address_1": "3501 Taylor Ave",
+                    "address_type": "DOM",
+                    "affiliation": "N",
+                    "city": "Baltimore",
+                    "contentTypeDescription": "",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "endpoint": "amandaa@mdschblind.org",
+                    "endpointDescription": "address",
+                    "endpointType": "DIRECT",
+                    "endpointTypeDescription": "Direct Messaging Address",
+                    "postal_code": "212364406",
+                    "state": "MD",
+                    "useDescription": ""
+                }
+            ],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1631109181000",
+            "number": "1659657526",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "2250 ALCAZAR ST",
+                    "address_2": "CSC-133",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LOS ANGELES",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "900890107",
+                    "state": "CA",
+                    "telephone_number": "323-442-3340"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "225X00000X",
+                    "desc": "Occupational Therapist",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "600 N WOLFE STREET",
+                    "address_2": "MEYER 163",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-614-4033",
+                    "postal_code": "212870005",
+                    "state": "MD",
+                    "telephone_number": "410-614-4030"
+                },
+                {
+                    "address_1": "9910 FRANKLIN SQUARE DR STE 2110",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212364902",
+                    "state": "MD",
+                    "telephone_number": "410-933-6423"
+                }
+            ],
+            "basic": {
+                "credential": "PhD",
+                "enumeration_date": "2015-05-07",
+                "first_name": "RACHEL",
+                "last_name": "AARON",
+                "last_updated": "2019-06-10",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1431036284000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1560197262000",
+            "number": "1003294232",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "103TR0400X",
+                    "desc": "Psychologist, Rehabilitation",
+                    "license": "06162",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "103TC0700X",
+                    "desc": "Psychologist, Clinical",
+                    "license": "06162",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "6501 N CHARLES ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-938-3410",
+                    "postal_code": "212046819",
+                    "state": "MD",
+                    "telephone_number": "410-938-3464"
+                },
+                {
+                    "address_1": "6501 N CHARLES ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-938-3410",
+                    "postal_code": "212046819",
+                    "state": "MD",
+                    "telephone_number": "410-938-3464"
+                }
+            ],
+            "basic": {
+                "credential": "M.D.",
+                "enumeration_date": "2006-11-29",
+                "first_name": "SCOTT",
+                "last_name": "AARONSON",
+                "last_updated": "2007-07-08",
+                "middle_name": "TYLER",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1164842810000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1183947785000",
+            "number": "1376610790",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "2084P0800X",
+                    "desc": "Psychiatry & Neurology, Psychiatry",
+                    "license": "D0057794",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "438 E VANN RD",
+                    "address_2": "SUITE 100",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "GREENEVILLE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "423-278-1712",
+                    "postal_code": "377437202",
+                    "state": "TN",
+                    "telephone_number": "423-278-1700"
+                },
+                {
+                    "address_1": "PO BOX 37087",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "828-650-8076",
+                    "postal_code": "212973087",
+                    "state": "MD",
+                    "telephone_number": "828-687-5616"
+                }
+            ],
+            "basic": {
+                "credential": "M.D.",
+                "enumeration_date": "2006-06-07",
+                "first_name": "RICHARD",
+                "last_name": "AASHEIM",
+                "last_updated": "2015-06-16",
+                "middle_name": "J.",
+                "name_prefix": "Dr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1149713044000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "31788591",
+                    "issuer": null,
+                    "state": "TN"
+                }
+            ],
+            "last_updated_epoch": "1434482064000",
+            "number": "1831139005",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207Q00000X",
+                    "desc": "Family Medicine",
+                    "license": "010133",
+                    "primary": true,
+                    "state": "TN",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "PO BOX 64442",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "443-462-3514",
+                    "postal_code": "212644442",
+                    "state": "MD",
+                    "telephone_number": "410-328-8040"
+                },
+                {
+                    "address_1": "827 LINDEN AVE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-856-3846",
+                    "postal_code": "212014606",
+                    "state": "MD",
+                    "telephone_number": "443-682-6800"
+                }
+            ],
+            "basic": {
+                "certification_date": "2022-05-30",
+                "credential": "M.D.",
+                "enumeration_date": "2017-04-18",
+                "first_name": "ALINA",
+                "last_name": "AASIM",
+                "last_updated": "2023-04-13",
+                "middle_name": "H.",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1492573436000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1681378248000",
+            "number": "1174057905",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "22 S GREENE ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-856-3846",
+                    "postal_code": "212011590",
+                    "state": "MD",
+                    "telephone_number": "443-682-6800"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "207R00000X",
+                    "desc": "Internal Medicine",
+                    "license": "D95051",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": false,
+                    "state": null,
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207RE0101X",
+                    "desc": "Internal Medicine, Endocrinology, Diabetes & Metabolism",
+                    "license": "D95051",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "106 W UNIVERSITY PKWY APT 507",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212103518",
+                    "state": "MD",
+                    "telephone_number": "301-910-1367"
+                },
+                {
+                    "address_1": "1010 DULANEY VALLEY RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "TOWSON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212042702",
+                    "state": "MD",
+                    "telephone_number": "410-567-1117"
+                }
+            ],
+            "basic": {
+                "certification_date": "2021-04-23",
+                "enumeration_date": "2021-04-23",
+                "first_name": "ANGELA",
+                "last_name": "ABADIR",
+                "last_updated": "2021-04-23",
+                "sex": "F",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1619215399000",
+            "endpoints": [
+                {
+                    "address_1": "1010 Dulaney Valley Rd",
+                    "address_type": "DOM",
+                    "affiliation": "N",
+                    "city": "Towson",
+                    "contentTypeDescription": "",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "endpoint": "TheraNest",
+                    "endpointType": "OTHERS",
+                    "endpointTypeDescription": "Other URL",
+                    "postal_code": "212042702",
+                    "state": "MD",
+                    "useDescription": ""
+                }
+            ],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "LGP11370",
+                    "issuer": "Maryland Board of Professional Counselors & Therapists",
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1619215399000",
+            "number": "1902488422",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "101YP2500X",
+                    "desc": "Counselor, Professional",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": "193400000X - Single Specialty Group"
+                }
+            ]
+        }
+    ]
+}

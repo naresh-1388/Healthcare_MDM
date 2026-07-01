@@ -1,0 +1,23 @@
+{{ config(materialized='table') }}
+
+SELECT
+
+State,
+COUNT(*) AS TOTAL_PROVIDERS,
+
+SUM(CASE WHEN Status='Active' THEN 1 ELSE 0 END) AS ACTIVE_PROVIDERS,
+SUM(CASE WHEN Status='Inactive' THEN 1 ELSE 0 END) AS INACTIVE_PROVIDERS,
+
+SUM(CASE WHEN Gender='Male' THEN 1 ELSE 0 END) AS MALE_PROVIDERS,
+SUM(CASE WHEN Gender='Female' THEN 1 ELSE 0 END) AS FEMALE_PROVIDERS,
+
+COUNT(DISTINCT TaxonomyCode) AS TOTAL_SPECIALIZATIONS
+
+FROM {{ ref('dim_provider') }}
+
+GROUP BY State
+
+ORDER BY TOTAL_PROVIDERS DESC
+
+
+-- dbt run --select mart_provider_state

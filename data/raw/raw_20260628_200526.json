@@ -1,0 +1,1037 @@
+{
+    "result_count": 15,
+    "results": [
+        {
+            "addresses": [
+                {
+                    "address_1": "1800 ORLEANS ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212870010",
+                    "state": "MD",
+                    "telephone_number": "410-955-3380"
+                },
+                {
+                    "address_1": "6201 GREENLEIGH AVE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "MIDDLE RIVER",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212202004",
+                    "state": "MD",
+                    "telephone_number": "410-933-6423"
+                }
+            ],
+            "basic": {
+                "certification_date": "2022-05-31",
+                "enumeration_date": "2019-03-25",
+                "first_name": "KARA",
+                "last_name": "ABARCAR",
+                "last_updated": "2022-05-31",
+                "middle_name": "ANGELA",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1553552531000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1654006645000",
+            "number": "1285195123",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207P00000X",
+                    "desc": "Emergency Medicine",
+                    "license": "d93593",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "3332 PAINE ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212112740",
+                    "state": "MD",
+                    "telephone_number": "410-303-0661"
+                },
+                {
+                    "address_1": "515 BRIGHTFIELD RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LUTHERVILLE TIMONIUM",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "210933643",
+                    "state": "MD",
+                    "telephone_number": "410-832-2398"
+                }
+            ],
+            "basic": {
+                "credential": "Physical therapist",
+                "enumeration_date": "2007-04-03",
+                "first_name": "DONALD",
+                "last_name": "ABARIA",
+                "last_updated": "2007-07-08",
+                "middle_name": "NATHAN",
+                "name_prefix": "Mr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1175652756000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1183947785000",
+            "number": "1114049038",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "225100000X",
+                    "desc": "Physical Therapist",
+                    "license": "18555",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "224A CORNWALL ST NW",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LEESBURG",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "703-779-5429",
+                    "postal_code": "201762701",
+                    "state": "VA",
+                    "telephone_number": "703-771-2894"
+                },
+                {
+                    "address_1": "PO BOX 37174",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "571-423-5698",
+                    "postal_code": "212973174",
+                    "state": "MD",
+                    "telephone_number": "571-423-5699"
+                }
+            ],
+            "basic": {
+                "certification_date": "2023-04-11",
+                "credential": "MD",
+                "enumeration_date": "2006-03-20",
+                "first_name": "IMRAN",
+                "last_name": "ABASSI",
+                "last_updated": "2023-04-11",
+                "middle_name": "MUHAMMAD",
+                "name_prefix": "Dr.",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1142880870000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "1003875014",
+                    "issuer": null,
+                    "state": "VA"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "P00426205",
+                    "issuer": "Medicare RR",
+                    "state": null
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "P00780939",
+                    "issuer": "Medicare RR",
+                    "state": "WV"
+                }
+            ],
+            "last_updated_epoch": "1681240499000",
+            "number": "1003875014",
+            "other_names": [
+                {
+                    "code": "1",
+                    "credential": "MD",
+                    "first_name": "MUHAMMAD",
+                    "last_name": "IMRAN",
+                    "prefix": "--",
+                    "suffix": "--",
+                    "type": "Former Name"
+                }
+            ],
+            "practiceLocations": [
+                {
+                    "address_1": "44045 RIVERSIDE PKWY",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LEESBURG",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "703-858-6900",
+                    "postal_code": "201765101",
+                    "state": "VA",
+                    "telephone_number": "703-858-6000"
+                },
+                {
+                    "address_1": "3300 GALLOWS RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "FALLS CHURCH",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "703-776-7113",
+                    "postal_code": "220423307",
+                    "state": "VA",
+                    "telephone_number": "703-776-4001"
+                },
+                {
+                    "address_1": "44790 MAYNARD SQ STE 130",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "ASHBURN",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "703-584-7378",
+                    "postal_code": "201476514",
+                    "state": "VA",
+                    "telephone_number": "703-542-3737"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "2084P0800X",
+                    "desc": "Psychiatry & Neurology, Psychiatry",
+                    "license": "35. 084845",
+                    "primary": false,
+                    "state": "OH",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "2084P0800X",
+                    "desc": "Psychiatry & Neurology, Psychiatry",
+                    "license": "0101241341",
+                    "primary": false,
+                    "state": "VA",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "2084P0800X",
+                    "desc": "Psychiatry & Neurology, Psychiatry",
+                    "license": "23738",
+                    "primary": false,
+                    "state": "WV",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "2084P0805X",
+                    "desc": null,
+                    "license": "0101241341",
+                    "primary": true,
+                    "state": "VA",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "2300 GARRISON BLVD STE 205",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212162309",
+                    "state": "MD",
+                    "telephone_number": "443-691-5498"
+                },
+                {
+                    "address_1": "9620 MAXWELL RD",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "MIDDLE RIVER",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212203792",
+                    "state": "MD",
+                    "telephone_number": "443-691-5498"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-04-15",
+                "enumeration_date": "2020-10-19",
+                "first_name": "ITORO",
+                "last_name": "ABATAI",
+                "last_updated": "2025-04-15",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1603117556000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1744724004000",
+            "number": "1245839653",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363LP0808X",
+                    "desc": "Nurse Practitioner, Psych/Mental Health",
+                    "license": "R220850",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "3122 E NORTHERN PKWY",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212141420",
+                    "state": "MD"
+                },
+                {
+                    "address_1": "1300 MERCANTILE LN STE 200",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LARGO",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "207745340",
+                    "state": "MD",
+                    "telephone_number": "240-615-8975"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2017-06-12",
+                "first_name": "ROSE",
+                "last_name": "ABATE",
+                "last_updated": "2017-06-12",
+                "middle_name": "KATHLEEN",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1497296448000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1497296448000",
+            "number": "1245760370",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "231H00000X",
+                    "desc": "Audiologist",
+                    "license": "01415",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "7004 SECURITY BLVD STE 101",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-277-4823",
+                    "postal_code": "212442572",
+                    "state": "MD",
+                    "telephone_number": "410-277-3490"
+                },
+                {
+                    "address_1": "7004 SECURITY BLVD STE 101",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-277-4823",
+                    "postal_code": "212442572",
+                    "state": "MD",
+                    "telephone_number": "410-277-3490"
+                }
+            ],
+            "basic": {
+                "credential": "MD",
+                "enumeration_date": "2006-09-27",
+                "first_name": "SHASTINE",
+                "last_name": "ABATE",
+                "last_updated": "2023-03-07",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1159408749000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "05",
+                    "desc": "MEDICAID",
+                    "identifier": "100500600",
+                    "issuer": null,
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "978M 782F",
+                    "issuer": "MEDICARE INDIVIDUAL",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "D50296",
+                    "issuer": "STATE LICENSE",
+                    "state": "MD"
+                },
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "M41040",
+                    "issuer": "CDS",
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1678238276000",
+            "number": "1922199405",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207R00000X",
+                    "desc": "Internal Medicine",
+                    "license": "D50296",
+                    "primary": false,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207RI0200X",
+                    "desc": "Internal Medicine, Infectious Disease",
+                    "license": "D50296",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "6401 GALWAY DR",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "CLARKSVILLE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "210291537",
+                    "state": "MD",
+                    "telephone_number": "410-550-0100"
+                },
+                {
+                    "address_1": "4940 EASTERN AVE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212242735",
+                    "state": "MD",
+                    "telephone_number": "410-550-0100"
+                }
+            ],
+            "basic": {
+                "credential": "pa-c",
+                "enumeration_date": "2007-01-26",
+                "first_name": "JARED",
+                "last_name": "ABAY",
+                "last_updated": "2016-03-08",
+                "name_prefix": "Mr.",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1169826162000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1457449106000",
+            "number": "1659427342",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363AS0400X",
+                    "desc": "Physician Assistant, Surgical",
+                    "license": "c0000649",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "6920 MARSUE DR APT T1",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212151237",
+                    "state": "MD",
+                    "telephone_number": "410-600-5830"
+                },
+                {
+                    "address_1": "6104 OLD SILVER HILL RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "DISTRICT HEIGHTS",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "207472111",
+                    "state": "MD",
+                    "telephone_number": "240-788-7357"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2016-03-22",
+                "first_name": "IRINA",
+                "last_name": "ABAZYAN",
+                "last_updated": "2016-03-22",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "F",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1458669266000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1458669266000",
+            "number": "1952763765",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "183500000X",
+                    "desc": "Pharmacist",
+                    "license": "23768",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "201 E. UNIVERSITY PARKWAY",
+                    "address_2": "DEPARTMENT OF INTERNAL MEDICINE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-554-2184",
+                    "postal_code": "21218",
+                    "state": "MD",
+                    "telephone_number": "410-554-2284"
+                },
+                {
+                    "address_1": "201 E. UNIVERSITY PARKWAY",
+                    "address_2": "DEPARTMENT OF INTERNAL MEDICINE",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-554-2184",
+                    "postal_code": "21218",
+                    "state": "MD",
+                    "telephone_number": "410-554-2284"
+                }
+            ],
+            "basic": {
+                "credential": "M.B.B.S",
+                "enumeration_date": "2024-05-02",
+                "first_name": "SHAHEM",
+                "last_name": "ABBARH",
+                "last_updated": "2024-08-07",
+                "middle_name": "MOHAMMAD",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1714681803000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1723060969000",
+            "number": "1295582765",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1635 N GEORGE MASON DR",
+                    "address_2": "SUITE 310",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "ARLINGTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "703-810-5428",
+                    "postal_code": "222053616",
+                    "state": "VA",
+                    "telephone_number": "703-810-5210"
+                },
+                {
+                    "address_1": "PO BOX 75420",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212755420",
+                    "state": "MD",
+                    "telephone_number": "703-383-6469"
+                }
+            ],
+            "basic": {
+                "credential": "PA",
+                "enumeration_date": "2006-10-05",
+                "first_name": "ALMAS",
+                "last_name": "ABBAS",
+                "last_updated": "2015-07-06",
+                "middle_name": "IBRAHIM",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1160081190000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1436198323000",
+            "number": "1962598847",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207X00000X",
+                    "desc": "Orthopaedic Surgery",
+                    "license": "0010-00376",
+                    "primary": false,
+                    "state": "NC",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "363A00000X",
+                    "desc": "Physician Assistant",
+                    "license": "0110002953",
+                    "primary": true,
+                    "state": "VA",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "2411 W BELVEDERE AVE",
+                    "address_2": "SUITE 206",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212155228",
+                    "state": "MD",
+                    "telephone_number": "410-601-9030"
+                },
+                {
+                    "address_1": "2411 W BELVEDERE AVE",
+                    "address_2": "SUITE 206",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212155228",
+                    "state": "MD",
+                    "telephone_number": "410-601-9030"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2006-03-16",
+                "first_name": "FOUAD",
+                "last_name": "ABBAS",
+                "last_updated": "2008-06-12",
+                "middle_name": "M",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1142529630000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [
+                {
+                    "code": "01",
+                    "desc": "Other (non-Medicare)",
+                    "identifier": "122MI1215",
+                    "issuer": "MEDICARE ID",
+                    "state": "MD"
+                }
+            ],
+            "last_updated_epoch": "1213276663000",
+            "number": "1023087699",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "207V00000X",
+                    "desc": "Obstetrics & Gynecology",
+                    "license": "D0038972",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "1830 E MONUMENT ST FL 4",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-367-2258",
+                    "postal_code": "212870020",
+                    "state": "MD",
+                    "telephone_number": "410-550-7070"
+                },
+                {
+                    "address_1": "1830 E MONUMENT ST FL 4",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "410-367-2258",
+                    "postal_code": "212870020",
+                    "state": "MD",
+                    "telephone_number": "410-502-7070"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-12-31",
+                "enumeration_date": "2013-09-25",
+                "first_name": "HASHIM",
+                "last_name": "ABBAS",
+                "last_updated": "2025-12-31",
+                "sex": "M",
+                "sole_proprietor": "YES",
+                "status": "A"
+            },
+            "created_epoch": "1380144045000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1767197492000",
+            "number": "1396171070",
+            "other_names": [],
+            "practiceLocations": [
+                {
+                    "address_1": "9500 EUCLID AVE",
+                    "address_2": "NA10",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "CLEVELAND",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "216-445-6290",
+                    "postal_code": "441951531",
+                    "state": "OH",
+                    "telephone_number": "216-444-2336"
+                },
+                {
+                    "address_1": "1 HOSPITAL DR",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LEWISBURG",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "fax_number": "570-768-3911",
+                    "postal_code": "178379350",
+                    "state": "PA",
+                    "telephone_number": "570-522-2000"
+                }
+            ],
+            "taxonomies": [
+                {
+                    "code": "207R00000X",
+                    "desc": "Internal Medicine",
+                    "license": "57.022431",
+                    "primary": false,
+                    "state": "OH",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207RN0300X",
+                    "desc": "Internal Medicine, Nephrology",
+                    "license": "MD485326",
+                    "primary": false,
+                    "state": "PA",
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "207RN0300X",
+                    "desc": "Internal Medicine, Nephrology",
+                    "license": "85562",
+                    "primary": true,
+                    "state": "GA",
+                    "taxonomy_group": "193400000X - Single Specialty Group"
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "22 S GREENE ST",
+                    "address_2": "ROOM N3E09",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011544",
+                    "state": "MD",
+                    "telephone_number": "410-328-6110"
+                },
+                {
+                    "address_1": "901 N POLLARD ST",
+                    "address_2": "APT.2206",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "ARLINGTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "222034087",
+                    "state": "VA",
+                    "telephone_number": "312-342-9442"
+                }
+            ],
+            "basic": {
+                "enumeration_date": "2017-03-27",
+                "first_name": "HATOON",
+                "last_name": "ABBAS",
+                "last_updated": "2017-03-27",
+                "middle_name": "MOHAMMADNABEEL",
+                "name_prefix": "--",
+                "name_suffix": "--",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1490631992000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1490631992000",
+            "number": "1891226270",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "520 W FAYETTE ST STE 300",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011756",
+                    "state": "MD",
+                    "telephone_number": "443-471-6728"
+                },
+                {
+                    "address_1": "520 W FAYETTE ST STE 300",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011756",
+                    "state": "MD"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-09-21",
+                "enumeration_date": "2025-09-22",
+                "first_name": "HABIBA",
+                "last_name": "ABBASI",
+                "last_updated": "2025-09-22",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1758535256000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1758535256000",
+            "number": "1528930302",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "363A00000X",
+                    "desc": "Physician Assistant",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "555 PRESIDENT ST UNIT 403",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212026304",
+                    "state": "MD",
+                    "telephone_number": "240-421-3992"
+                },
+                {
+                    "address_1": "94 OLD SHORT HILLS RD",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "LIVINGSTON",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "070395672",
+                    "state": "NJ",
+                    "telephone_number": "240-421-3992"
+                }
+            ],
+            "basic": {
+                "certification_date": "2026-06-04",
+                "enumeration_date": "2026-06-04",
+                "first_name": "SHIRIN",
+                "last_name": "ABBASI",
+                "last_updated": "2026-06-04",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1780566304000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1780566304000",
+            "number": "1770416463",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": "NJ",
+                    "taxonomy_group": ""
+                }
+            ]
+        }
+    ]
+}

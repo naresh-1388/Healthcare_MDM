@@ -13,3 +13,9 @@ __pycache__/
 
 # Logs
 *.log
+
+# Documentation (Local)
+Healthcare MDM - End-to-End Execution Guide.pdf 
+
+# pdfs
+*.pdf

@@ -1,0 +1,12 @@
+{{config(materialized='table')}}
+
+SELECT
+DATA_QUALITY_WARNING,
+COUNT(*) AS TOTAL_PROVIDERS,
+COUNT(DISTINCT State) AS TOTAL_STATES,
+COUNT(DISTINCT TaxonomyCode) AS TOTAL_SPECIALIZATIONS
+FROM {{ref('dim_provider')}}
+GROUP BY DATA_QUALITY_WARNING
+ORDER BY TOTAL_PROVIDERS DESC
+
+-- dbt run --select mart_provider_data_quality

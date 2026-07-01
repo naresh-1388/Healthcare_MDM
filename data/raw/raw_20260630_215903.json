@@ -1,0 +1,285 @@
+{
+    "result_count": 5,
+    "results": [
+        {
+            "addresses": [
+                {
+                    "address_1": "22 S GREENE ST # N5W70",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011544",
+                    "state": "MD"
+                },
+                {
+                    "address_1": "22 S GREENE ST # N5W70",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011544",
+                    "state": "MD",
+                    "telephone_number": "410-328-6662"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-03-27",
+                "enumeration_date": "2025-03-27",
+                "first_name": "RAHMA",
+                "last_name": "ABD EL-SHAFY",
+                "last_updated": "2025-03-27",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1743113704000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1743113704000",
+            "number": "1194528182",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "104 CHURCH LN STE 101",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212083839",
+                    "state": "MD",
+                    "telephone_number": "410-343-9756"
+                },
+                {
+                    "address_1": "104 CHURCH LN STE 101",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212083839",
+                    "state": "MD",
+                    "telephone_number": "410-343-9756"
+                }
+            ],
+            "basic": {
+                "certification_date": "2022-05-20",
+                "enumeration_date": "2022-05-15",
+                "first_name": "NOOR",
+                "last_name": "ABD-ALLAH",
+                "last_updated": "2022-05-20",
+                "sex": "F",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1652649177000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1653075029000",
+            "number": "1851038509",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "101Y00000X",
+                    "desc": "Counselor",
+                    "license": null,
+                    "primary": false,
+                    "state": null,
+                    "taxonomy_group": ""
+                },
+                {
+                    "code": "101Y00000X",
+                    "desc": "Counselor",
+                    "license": "A0732",
+                    "primary": true,
+                    "state": "MD",
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "900 S CATON AVE",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212295201",
+                    "state": "MD",
+                    "telephone_number": "667-234-2718"
+                },
+                {
+                    "address_1": "222 NW 122ND TER",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "CORAL SPRINGS",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "330718043",
+                    "state": "FL",
+                    "telephone_number": "954-501-4214"
+                }
+            ],
+            "basic": {
+                "certification_date": "2025-03-31",
+                "credential": "MD",
+                "enumeration_date": "2025-03-31",
+                "first_name": "MUSHEER",
+                "last_name": "ABDALHUK",
+                "last_updated": "2025-03-31",
+                "name_prefix": "Dr.",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1743466803000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1743466803000",
+            "number": "1487457529",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "22 SOUTH GREENE STREET",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011595",
+                    "state": "MD",
+                    "telephone_number": "410-328-7399"
+                },
+                {
+                    "address_1": "22 SOUTH GREENE STREET",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011595",
+                    "state": "MD",
+                    "telephone_number": "410-328-7399"
+                }
+            ],
+            "basic": {
+                "credential": "M.D.",
+                "enumeration_date": "2026-04-22",
+                "first_name": "ABDELRAHMAN",
+                "last_name": "ABDALLA",
+                "last_updated": "2026-04-22",
+                "name_prefix": "Mr.",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1776855908000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1776855908000",
+            "number": "1023953478",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "address_1": "22 S GREENE ST",
+                    "address_purpose": "MAILING",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011544",
+                    "state": "MD"
+                },
+                {
+                    "address_1": "22 S GREENE ST",
+                    "address_purpose": "LOCATION",
+                    "address_type": "DOM",
+                    "city": "BALTIMORE",
+                    "country_code": "US",
+                    "country_name": "United States",
+                    "postal_code": "212011544",
+                    "state": "MD",
+                    "telephone_number": "872-806-7026"
+                }
+            ],
+            "basic": {
+                "certification_date": "2024-04-01",
+                "credential": "MD",
+                "enumeration_date": "2024-04-01",
+                "first_name": "ELSADIG",
+                "last_name": "ABDALLA",
+                "last_updated": "2024-04-01",
+                "sex": "M",
+                "sole_proprietor": "NO",
+                "status": "A"
+            },
+            "created_epoch": "1711999505000",
+            "endpoints": [],
+            "enumeration_type": "NPI-1",
+            "identifiers": [],
+            "last_updated_epoch": "1711999505000",
+            "number": "1073364477",
+            "other_names": [],
+            "practiceLocations": [],
+            "taxonomies": [
+                {
+                    "code": "390200000X",
+                    "desc": "Student in an Organized Health Care Education/Training Program",
+                    "license": null,
+                    "primary": true,
+                    "state": null,
+                    "taxonomy_group": ""
+                }
+            ]
+        }
+    ]
+}

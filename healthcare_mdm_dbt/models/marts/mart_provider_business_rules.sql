@@ -1,0 +1,13 @@
+{{config(materialized='table')}}
+
+SELECT
+BUSINESS_RULE_STATUS,
+COUNT(*) AS TOTAL_PROVIDERS,
+COUNT(DISTINCT State) AS TOTAL_STATES,
+COUNT(DISTINCT TaxonomyCode) AS TOTAL_SPECIALIZATIONS
+FROM {{ref('dim_provider')}}
+GROUP BY BUSINESS_RULE_STATUS
+ORDER BY TOTAL_PROVIDERS DESC
+
+
+-- dbt run --select mart_provider_business_rules

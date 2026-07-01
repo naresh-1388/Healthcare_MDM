@@ -1,0 +1,31 @@
+version: 2
+
+models:
+
+  - name: dim_provider
+    description: "Provider Dimension Table"
+
+    columns:
+
+      - name: ProviderID
+        description: "Unique Provider Identifier"
+        tests:
+          - unique
+          - not_null
+
+      - name: TaxonomyCode
+        description: "Provider Taxonomy"
+        tests:
+          - not_null
+
+      - name: CountryCode
+        description: "Country Code"
+        tests:
+          - accepted_values:
+              values: ['US']
+
+  - name: mart_provider_state
+    description: "State Wise Provider Summary"
+
+  - name: mart_provider_summary
+    description: "Daily Provider Summary"
