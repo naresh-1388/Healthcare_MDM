@@ -13,7 +13,7 @@
 ---
 ## End-to-End Architecture
 
-![Architecture]()
+![Architecture](powerbi/Screenshots/architecture.png)
 
 
 ## Table of Contents
