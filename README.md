@@ -13,6 +13,10 @@
 **Architecture:** Medallion (Bronze → Silver → Gold) + Snowflake CDC + dbt Semantic Layer + BI Dashboard  
 
 ---
+## End-to-End Architecture
+
+![Architecture](powerbi/screenshots/architecture.png)
+
 
 ## Table of Contents
 
