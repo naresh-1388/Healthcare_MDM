@@ -1,9 +1,14 @@
 # Healthcare Master Data Management (Healthcare_MDM)
 ## Complete Project Documentation
 
-**Author:** Naresh Mayari  
-**GitHub:** [github.com/naresh-1388](https://github.com/naresh-1388)  
-**LinkedIn:** [linkedin.com/in/naresh-mayari](https://linkedin.com/in/naresh-mayari)  
+# Author
+
+**Naresh Mayari**
+
+ Data Engineer | Python | PySpark | Databricks | Snowflake | dbt | AWS | Power BI
+
+- GitHub: https://github.com/naresh-1388
+- LinkedIn: https://www.linkedin.com/in/naresh-m-2407t/
 **Stack:** Python · AWS S3 · Databricks · Delta Lake · Unity Catalog · Snowflake · dbt · Power BI  
 **Architecture:** Medallion (Bronze → Silver → Gold) + Snowflake CDC + dbt Semantic Layer + BI Dashboard  
 
